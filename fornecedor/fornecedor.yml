@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/fornecedor?createDatabaseIfNotExist=true
+    username: root
+  application:
+    name: 'fornecedor'
+
+jpa:
+  hibernate:
+    ddl-auto: create
+    dialect: org.hibernate.dialect.MySQL8Dialect
+  show-sql: true
+
+
