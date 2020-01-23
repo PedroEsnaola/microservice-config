@@ -5,10 +5,10 @@ spring:
   application:
     name: 'fornecedor'
 
-jpa:
-  hibernate:
-    ddl-auto: create
-    dialect: org.hibernate.dialect.MySQL8Dialect
-  show-sql: true
+  jpa:
+    hibernate:
+      ddl-auto: create
+      dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
 
 
